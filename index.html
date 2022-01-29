@@ -7,6 +7,7 @@ i<!DOCTYPE html>
     <meta name="viewpoint" content="width=device, initial-scale=1"/>
 
     <!-- TODO: import the stylesheets (css) -->
+    <link rel="stylesheet" href="styles.css"/>
 
     <!-- TODO: import the javascript file -->
 
@@ -16,22 +17,41 @@ i<!DOCTYPE html>
   <body>
 
     <!--Navigation Bar-->
-    <nav>
-      <ul class="nav-bar"
-        <li class="nav"><a href="#home" class>TIFFANY KUANG</a>
-        <li class="nav><a href="#projects">PROJECTS</a>
-        <li class="nav><a href="#education">EDUCATION</a>
-        <li class="nav"><a href=#about">ABOUT</a>
-      </ul>
-    </nav>
+    <div id="nav">
+      <a href="#home" class="nav-item-right">TIFFANY KUANG</a>
+      <a href="#projects" class="nav-item-left">PROJECTS</a>
+      <a href="#education" class="nav-item-left">EDUCATION</a>
+      <a href="#about" class="nav-item-left">ABOUT</a>
+    </div>
 
     <div class="content">
       <section id="home">
       </section>
-
     </div>
-    <h1>Hello world!</h1>
-    <p>Welcome to my GitHub Pages site!</p>
+
+    <!--Education Information-->
+    <section class="container box" id="education"></section>
+      <div class="container">
+          <h1 class="subtitles">EDUCATION</h1>
+          <div class="row" id="education-title">
+              <h2>Purdue University</h2>
+              <h3>B.S. in Computer Science</h3>
+              <h3>Minor in Management</h3>
+              <p>Expected Gradutation: May 2025</p>
+          </div>
+      </div>
+      <div class="container">
+          <h4>Relevant Coursework:</h4>
+          <p>Computer Science</p>
+          <ul>
+              <li>Problem Solving and Object-Oriented Programming (CS180)</li>
+              <li>Foundations of Computer Science (CS182)</li>
+              <li>Programming in C (CS240)</li>
+              <li>Competitive Programming I(CS290)</li>
+          </ul>
+          <p id="progress">*work in progress</p>
+      </div>
+
   </body>
 </html>
 
