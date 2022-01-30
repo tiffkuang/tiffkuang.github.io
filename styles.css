@@ -5,6 +5,17 @@ body {
 }
 
 /** navigation bar **/
+
+a {
+    text-decoration: none;
+    color: #575757;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #8d8d8d
+}
+
 #nav {
     left: 0%;
     right: 0%;
@@ -15,5 +26,20 @@ body {
     transition: top 0.4s;
     box-shadow: 2px 2px 5px;
     z-index: 1;
+}
 
+.nav-item:first-child {
+    float: left;
+    font-weight: 500;
+}
+
+.nav-item {
+    color: #2a2d34;
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 22px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 500;
 }
